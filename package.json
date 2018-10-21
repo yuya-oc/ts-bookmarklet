@@ -1,5 +1,5 @@
 {
-  "name": "bookmarklet-ts",
+  "name": "ts-bookmarklet",
   "version": "0.0.0",
   "description": "Write bookmarklet with TypeScript",
   "main": "lib/index.js",
