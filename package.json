@@ -7,7 +7,7 @@
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "build": "npm run build:js && npm run build:bookmarklet",
-    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --minified",
+    "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --minified --no-comments",
     "build:bookmarklet": "ts-node scripts/append-javascript.ts dist/index.js"
   },
   "author": "Yuya Ochiai",
